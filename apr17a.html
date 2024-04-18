@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            height: 90vh;
+    
+            width: 50vh;
+            margin-left:25% ;
+            margin-right:25% ;
+            position: relative;
+            box-shadow: 0 0 5px rgb(99, 99, 140);
+        }
+        .b1{
+            background-color: blue;
+            width: 10px;
+            height: 20%;
+            position: absolute;
+            bottom: 0;
+            left: 10%;
+            animation: box1 2s ease-in  infinite alternate;
+            box-shadow: 0 0 8px  rgb(40, 38, 38);
+        }
+        
+        .b2{
+            background-color: rgb(232, 248, 14);
+            width: 10px;
+            height: 40%;
+            position: absolute;
+            bottom: 0;
+            left: 20%;
+            animation: box1 3s ease-in  infinite reverse;
+            box-shadow: 0 0 8px  rgb(40, 38, 38);
+
+
+            
+        }
+        .b3{
+            background-color: rgb(6, 245, 229);
+            width: 10px;
+            height: 20%;
+            position: absolute;
+            bottom: 0;
+            left: 30%;
+            animation: box1 2s ease-in  infinite alternate;
+            box-shadow: 0 0 8px  rgb(40, 38, 38);
+
+
+        }
+        .b4{
+            background-color: rgb(255, 31, 31);
+            width: 10px;
+            height: 20%;
+            position: absolute;
+            bottom: 0;
+            left: 40%;
+            animation: box1 4s ease-in  infinite reverse;
+            box-shadow: 0 0 8px  rgb(40, 38, 38);
+
+
+        }
+
+        @keyframes box1 {
+            from{
+              height: 20%;
+            }
+            to{
+             height: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+        <div class="b4"></div>
+        
+        <div class="b1" style="left: 50%;"></div>
+        <div class="b2"  style="left: 60%;"></div>
+        <div class="b3"  style="left: 70%"></div>
+        <div class="b4"  style="left: 80%;"></div>
+        <div class="b1" style="left: 90%;"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+        <div class="b4"></div>
+
+    </div>
+    
+</body>
+</html>

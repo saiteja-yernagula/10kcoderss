@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: grid;
+            grid-template-columns: 25% 75%;
+        }
+        article{
+
+            height:100vh;
+            overflow: scroll;
+            text-align: center;
+        } 
+
+        ul{
+            list-style-type: none;
+            font-size: 40px;
+            font-weight: 200;
+        }
+        aside{
+            height: 100vh;
+            padding: 10px;
+            overflow: auto;
+        } 
+        nav{
+        display: flex;
+        justify-content: space-between;
+    
+        }  
+        
+        .section1{
+            height: 700px;
+            background: url("https://www.w3schools.com/w3images/jeans.jpg");
+            background-size: cover;
+            padding: 20px;
+        }
+        .parent{
+            display: flex;
+            height: 100vh;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        .item{
+            width: 23%;
+            margin-left: 2%; 
+
+        }
+        
+        footer{
+            height: 200px;
+            text-align: center;
+            width: 200%;
+            padding: 100px;
+            background-color: black;
+            color: white;
+        }
+        
+        </style>
+</head>
+<body>
+    <article>
+        <h1>Logo</h1>
+        <ul>
+            <li>jeans</li>
+            <li>shirts</li>
+            <li>jackets</li>
+            <li>gym wear </li>
+            <li>blazers </li>
+            <li>shoes </li>
+        </ul>
+
+        <ul>
+            <li>about </li>
+            <li>contact</li>
+            <li>subscribe</li>
+        </ul>
+    </article>
+
+    <aside>
+        <nav>
+            <h2 >Jeans</h2>
+            <h2 >Menu</h2>
+        </nav>
+
+        <section class="section1">
+            <h2  style="font-size: 55px;color: white;">New arrivals</h2>
+            <h2 style="font-size: 55px;color: white;">collection</h2>
+            <h2 style="font-size: 25px;background: rgb(2, 2, 2);color: white;padding: 10px; width: 200px;">New arrivals</h2>
+        </section>
+
+        <sectionb class="parent">
+            <div class="item">
+                <div><img src="https://www.w3schools.com/w3images/jeans1.jpg" width="90%"></div>
+               <p>Ripped Skinny Jeans</p>
+                <p>$24.99</p> 
+            </div>
+
+            <div class="item">
+                <div><img src="https://www.w3schools.com/w3images/jeans1.jpg" width="90%"></div>
+               <p>Ripped Skinny Jeans</p>
+                <p>$24.99</p> 
+            </div>
+            
+            <div class="item">
+                <div><img src="https://www.w3schools.com/w3images/jeans1.jpg" width="90%"></div>
+               <p>Ripped Skinny Jeans</p>
+                <p>$24.99</p> 
+            </div>
+            
+            <div class="item">
+                <div><img src="https://www.w3schools.com/w3images/jeans1.jpg" width="90%"></div>
+               <p>Ripped Skinny Jeans</p>
+                <p>$24.99</p> 
+            </div>
+
+            <div class="item">
+                <div><img src="https://www.w3schools.com/w3images/jeans1.jpg" width="90%"></div>
+               <p>Ripped Skinny Jeans</p>
+                <p>$24.99</p> 
+            </div>
+
+            <div class="item">
+                <div><img src="https://www.w3schools.com/w3images/jeans1.jpg" width="90%"></div>
+               <p>Ripped Skinny Jeans</p>
+                <p>$24.99</p> 
+            </div>
+            
+            <div class="item">
+                <div><img src="https://www.w3schools.com/w3images/jeans1.jpg" width="90%"></div>
+               <p>Ripped Skinny Jeans</p>
+                <p>$24.99</p> 
+            </div>
+            
+            <div class="item">
+                <div><img src="https://www.w3schools.com/w3images/jeans1.jpg" width="90%"></div>
+               <p>Ripped Skinny Jeans</p>
+                <p>$24.99</p> 
+            </div>
+            
+            
+            <div class="item">
+                <div><img src="https://www.w3schools.com/w3images/jeans1.jpg" width="90%"></div>
+               <p>Ripped Skinny Jeans</p>
+                <p>$24.99</p> 
+            </div>
+        </section>
+
+        <footer>
+            <div>powered by w3school</div>
+        </footer>
+    </aside>
+</body>
+</html>
