@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        div{
+            background-color: blue;
+            margin: 10px;
+            padding:20px 60px;
+        }
+
+        @media only screen and (max-width:480px) {
+            nav{
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div>menu</div>
+        <div>details</div>
+        <div>Contact</div>
+        <div>about</div>
+    </nav>
+    
+</body>
+</html>
